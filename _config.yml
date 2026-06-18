@@ -16,7 +16,7 @@ timezone:
 
 title: 𝔐𝔦𝔯𝔞𝔠𝔲𝔩𝔬𝔲𝔰 # the main title
 
-tagline:  Cybersecurity Researcher | Aspiring Red Teamer# it will display as the subtitle
+tagline:  Cybersecurity Researcher | Aspiring Red Teamer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Documenting My Journey in Offensive Security.
