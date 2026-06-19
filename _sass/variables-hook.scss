@@ -1,0 +1,24 @@
+html[data-mode='dark'] {
+  --main-bg: transparent;
+  --sidebar-bg: rgba(15, 16, 22, 0.95); 
+  --link-color: #ff4a5a; 
+  --link-underline-color: #ff4a5a;
+  --text-color: #e2e4e9; 
+  --heading-color: #ffffff;
+
+  body {
+    background-image: 
+      linear-gradient(rgba(10, 11, 15, 0.4), rgba(10, 11, 15, 0.4)), 
+      url('/assets/img/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  #post-list .card, .post {
+    background: rgba(20, 22, 30, 0.7) !important;
+    backdrop-filter: blur(8px); 
+    border: 1px solid rgba(255, 74, 90, 0.15) !important;
+  }
+}
