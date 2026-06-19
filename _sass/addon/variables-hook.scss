@@ -1,0 +1,24 @@
+html[data-mode='dark'] {
+  --main-bg: transparent !important;
+  --sidebar-bg: rgba(15, 16, 22, 0.95) !important;
+  --link-color: #ff4a5a !important;
+  --link-underline-color: #ff4a5a !important;
+  --text-color: #e2e4e9 !important;
+  --heading-color: #ffffff !important;
+
+  body {
+    background-image: 
+      linear-gradient(rgba(10, 11, 15, 0.4), rgba(10, 11, 15, 0.4)), 
+      url('https://0xMiraculous.github.io/assets/img/bg.jpg') !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+  }
+
+  #post-list .card, .post {
+    background: rgba(20, 22, 30, 0.7) !important;
+    backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(255, 74, 90, 0.15) !important;
+  }
+}
